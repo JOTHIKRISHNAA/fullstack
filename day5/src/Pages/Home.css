@@ -1,0 +1,18 @@
+.animated-sentence {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .animate {
+    animation: slideRightToLeft 5s linear infinite;
+  }
+  
+  @keyframes slideRightToLeft {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
