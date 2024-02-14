@@ -1,0 +1,116 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.cont1 {
+    --bg-color:#ede9f8;
+    --color-primary:#2d3436;
+    --color-secondary:#252c6a;
+    --border-radius:4px;
+    height: 100vh;
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color);
+    background-image: url("https://img.freepik.com/premium-photo/bright-gift-boxes-with-red-yellow-pompons-festive-square-frame-watercolor-illustration_714656-1283.jpg?w=740");
+}
+
+#container {
+    background:white;
+    margin-top: 22rem;
+    width: 18.75rem;
+    height: 29rem;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 85px;
+}
+
+header {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 3rem;
+    height: 3rem;
+    background: white;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #2d3436;
+}
+
+fieldset {
+    border: 0;
+    text-align: center;
+}
+.new2{
+
+    margin-bottom: 2rem;
+    color:#2d3436;
+    font-weight: bolder;
+
+
+}
+
+input[type="submit"] {
+    background: #2d3436;
+    margin-top: 300px;
+    border: 0;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+input{
+    display:block;
+    width:100%;
+    padding:0.75rem;
+    box-sizing:border-box;
+    border-radius: var(--border-radius);
+    border:1px solid #ddd;
+    outline:none;
+    background: #eee;
+    transition: background 0.2s border-color 0.2s;
+}
+
+/* input {
+    background: transparent;
+    border: 0;
+    border-left: 4px solid;
+    
+    padding: 10px;
+
+} */
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: 0;
+    background: rgba(235, 30, 54, 0.3);
+    border-radius: 1.2rem;
+    border-color: transparent;
+}
+
+::placeholder {
+    color: #4b3535;
+}
+
+/*Media queries */
+
+@media all and (min-width: 481px) and (max-width: 568px) {
+    #container {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
+    @media all and (min-width: 569px) and (max-width: 768px) {
+        #container {
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+    }
